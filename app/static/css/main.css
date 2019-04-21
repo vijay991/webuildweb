@@ -1127,11 +1127,46 @@ h6 {
 }
 
 
-.arrow-right {
-  width: 0; 
-  height: 0; 
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
-  
-  border-left: 60px solid green;
+/*--------------------------------------------------------------
+# pricing
+--------------------------------------------------------------*/
+
+.item {
+  height: 50px;
+  margin: 10px;
+  position: relative;
 }
+
+button.process {
+  border: 1px solid white;
+  background: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  color: blue;
+  transition: background 0.5s ease;
+}
+
+i.arrow1 {
+  color: blue;
+  margin-left: 20px;
+}
+
+.arrow1 {
+  animation: slide1 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+/*--------------------------------------------------------------
+# pricing
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+--------------------------------------------------------------*/
