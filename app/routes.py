@@ -3,7 +3,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from app import app, db
-from app.models import User
+from app.models import user
 
 
 class LoginForm(FlaskForm):
@@ -15,7 +15,7 @@ class LoginForm(FlaskForm):
 def index():
     form = LoginForm()
     if form.validate_on_submit():
-        email = User(email=form.email.data)
+        email = user(email=form.email.data)
         db.session.add(email)
         db.session.commit()
         flash('Subscribed')
