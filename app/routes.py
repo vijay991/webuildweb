@@ -21,3 +21,9 @@ def index():
         flash('Subscribed')
         return redirect(url_for('index'))
     return render_template('index.html', form=form)
+
+
+@app.route('/email')
+def emails():
+    usr = user.query.all()
+    return render_template('email.html', usr=usr)
