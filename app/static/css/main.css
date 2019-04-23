@@ -643,7 +643,7 @@ h6 {
 
 #team {
   background: #fff;
-  padding: 60px 0;
+  padding: 50px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -651,7 +651,7 @@ h6 {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  border-radius: 50%;
+  border-radius: 5%;
   overflow: hidden;
 }
 
@@ -678,7 +678,7 @@ h6 {
 }
 
 #team .member .member-info-content {
-  margin-top: 50px;
+  margin-top: 20px;
   transition: margin 0.2s;
 }
 
@@ -693,22 +693,22 @@ h6 {
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#team .member h6 {
   font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
+  margin-bottom: 1px;
+  font-size: 14   px;
   color: #fff;
 }
 
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 11px;
   color: #fff;
 }
 
 #team .member .social {
-  margin-top: 15px;
+  margin-top: 13px;
 }
 
 #team .member .social a {
@@ -721,7 +721,7 @@ h6 {
 }
 
 #team .member .social i {
-  font-size: 18px;
+  font-size: 15px;
   margin: 0 2px;
 }
 
