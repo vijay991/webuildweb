@@ -696,7 +696,7 @@ h6 {
 #team .member h6 {
   font-weight: 700;
   margin-bottom: 1px;
-  font-size: 14   px;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -768,6 +768,65 @@ h6 {
 #clients img {
   transition: all 0.4s ease-in-out;
 }
+
+
+
+/* Contact Section
+--------------------------------*/
+
+#contact {
+  padding: 30px 0;
+  background-color: #d6eaff;
+}
+
+#contact .section-header {
+  padding-bottom: 30px;
+}
+
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#contact .contact-info a {
+  color: #000;
+}
+
+#contact .contact-info a:hover {
+  color: #007bff;
+}
+
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+  margin-bottom: 20px;
+}
+
+
+
+
+
 
 
 
